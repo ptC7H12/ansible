@@ -1,5 +1,5 @@
 - name: Play Ping
-  hosts: ubuntu_ct_testing
+  hosts: ubuntu_ansible
   become: yes
   tasks:
    - name: Ping my hosts
