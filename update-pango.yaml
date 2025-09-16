@@ -1,0 +1,7 @@
+---
+- name: Run script on Pangolin via WireGuard
+  hosts: pangolin
+  gather_facts: no
+  tasks:
+    - name: Execute remote script
+      script: ./script.sh
